@@ -19,6 +19,14 @@ public class Loops {
 				System.out.println(b);
 				
 			}
+			System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@");
+			//do-while loop
+			int i=1;
+			do{
+				
+				System.out.println("iam  student no. :"+ i);
+		i++;
+			}while(i<=10);
 			
 	}
 

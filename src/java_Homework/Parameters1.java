@@ -6,8 +6,10 @@ public class Parameters1 {
 	
 	
 		public void setuserdetails(int ID,String name )
-		{
-		System.out.println(ID +"  "+ name);
+				{			
+			username=name;//inorder to sent value to the global variable we have to use this line  as the values passed to this method
+			userID=ID;
+		System.out.println(userID +"  "+ name);
 		}
 	
 	//return value is stored in the method ,when u call this method using syso it will print the return value
